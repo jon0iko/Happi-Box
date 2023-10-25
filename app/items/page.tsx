@@ -193,12 +193,9 @@ const itemsL: ItemL[] = [
     },
 ];
 
-const page = () => {
+const Page = () => {
     const toast = useToast()
     const [selectedOptions, setSelectedOptions] = useState(
-        items.map(() => '')
-      );
-    const [selectedPrice, setSelectedPrice] = useState(
         items.map(() => '')
       );
     return (
@@ -429,4 +426,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
