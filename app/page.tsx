@@ -39,7 +39,9 @@ export default function Home() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Why Choose Happi Box </h1>
             <p className="mb-8 leading-relaxed">We provide a wide variety of home-cooked meals made from fresh and locally sourced ingredients. Our meals are not only delicious but also healthy, ensuring you get the nutrition you need.</p>
             <div className="flex justify-center">
+              <a href='/subscribe'>
               <button className='bg-[#d3b27f] rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-100 duration-300 hover:border border border-transparent text-black hover:text-white'>Subscribe Now</button>
+              </a>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
