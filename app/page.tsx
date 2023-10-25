@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/zFDp2Qs-zY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='object-cover object-center rounded' allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/zFDp2Qs-zY4" title="Happi Box" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='object-cover object-center rounded' allowFullScreen></iframe>
           </div>
         </div>
       </div>
