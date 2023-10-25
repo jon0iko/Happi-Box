@@ -201,7 +201,7 @@ const Page = () => {
     return (
         <ChakraProvider>
         <div className="container mx-auto">
-        <Tabs isFitted variant='enclosed' variant='soft-rounded' colorScheme='yellow'>
+        <Tabs isFitted={true} variant='soft-rounded' colorScheme='yellow'>
             <TabList>
                 <Tab>Breakfast</Tab>
                 <Tab>Lunch</Tab>
