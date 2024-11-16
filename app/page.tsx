@@ -12,16 +12,16 @@ export default function Home() {
         <nav className='flex items-center'>
           <a href='/'><img src="/logopng.png" className='w-40 cursor-pointer'></img></a>
           <ul className='flex-1 text-center'>
-            <li className='list-none inline-block px-5'><a href='/' className='px-2'>Home</a></li>
-            <li className='list-none inline-block px-5'><a href='/items' className='px-2'>Order</a></li>
-            <li className='list-none inline-block px-5'><a href='/subscribe' className='px-2'>Subscriptions</a></li>
+            <li className='list-none inline-block px-5 hover:text-[#D3B27F]'><a href='/' className='px-2'>Home</a></li>
+            <li className='list-none inline-block px-5 hover:text-[#D3B27F]'><a href='/items' className='px-2'>Order</a></li>
+            <li className='list-none inline-block px-5 hover:text-[#D3B27F]'><a href='/subscribe' className='px-2'>Subscriptions</a></li>
           </ul>
         </nav>
 
         <div className='mt-48 max-w-2xl relative'>
-          <h1 className='text-6xl font-semibold leading-normal'>Delicious and Healthy<br></br> <span className='font-light'>Tiffin Delivery Service</span>
+          <h1 className='text-6xl font-semibold leading-normal p-2'>Delicious and Healthy<br></br> <span className='font-light'>Tiffin Delivery Service</span>
           </h1>
-          <p>Get freshly prepared, delicious and healthy home-cooked meals<br></br> delivered to your doorstep.</p>
+          <p className='p-2'>Get freshly prepared, delicious and healthy home-cooked meals<br></br> delivered to your doorstep.</p>
 
           <div className='mt-10 '>
             <a href="/items" className='bg-[#d3b27f] rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-[#d3b27f] duration-300 hover:border border border-transparent text-black hover:text-white'>Order Now</a>
