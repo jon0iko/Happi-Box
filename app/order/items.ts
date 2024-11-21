@@ -201,13 +201,6 @@ const itemsDinner: ItemL[] = [
         options: ['Regular Oil','Olive Oil', 'Soyabean oil', 'naga oil(for flavour)', 'with seafood', 'without sea food'],
     },
     {
-        id: 4,
-        name: 'Chicken Fry',
-        price: 199.99,
-        imageUrl: 'CF.JPG',
-        options: ['Thai fried chicken','regular fried chicken', 'naga fried chicken', 'bbq fried chicken', 'spicy fried chicken'],
-    },
-    {
         id: 5,
         name: 'Dumplings',
         price: 199.99,
@@ -259,22 +252,65 @@ const itemsDinner: ItemL[] = [
     }
 ]
 
-const itemsPreggo: ItemL[] = [
+const itemsPreggoBreakfast: ItemL[] = [
     {
         id: 1,
-        name: 'Rice',
+        name: 'Spinach feta omelet with whole grain toast and fresh fruits',
         price: 69.99,
-        imageUrl: 'Rice.PNG',
-        options: ['White Rice','Brown Rice'],
-    },
-    {
-        id: 2,
-        name: 'Polao',
-        price: 99.99,
-        imageUrl: 'Polao.PNG',
-        options: ['With Oil','Without Oil'],
+        imageUrl: 'EFR.JPG',
+        options: ['Banana','Berries'],
     }
 ]
 
-export { items, itemsL, itemsDinner, itemsPreggo };
+const itemsPreggoLunch: ItemL[] = [
+    {
+        id: 1,
+        name: 'Chickpea curry & rui fish curry with brown rice and tomato salad',
+        price: 69.99,
+        imageUrl: 'EFR.JPG',
+        options: [],
+    }
+]
+
+const itemsPreggoDinner: ItemL[] = [
+    {
+        id: 1,
+        name: 'Grilled chicken with less spice and oil, sauted vegetables & cucumber salad',
+        price: 69.99,
+        imageUrl: 'EFR.JPG',
+        options: [],
+    }
+]
+
+const itemsFitBreakfast: ItemL[] = [
+    {
+        id: 1,
+        name: 'Masoor dal pancakes with spinach & boiled eggs',
+        price: 69.99,
+        imageUrl: 'EFR.JPG',
+        options: [],
+    }
+]
+
+const itemsFitLunch: ItemL[] = [
+    {
+        id: 1,
+        name: 'Grilled chicken breast/ Rui Fish with mixed vegetables',
+        price: 69.99,
+        imageUrl: 'EFR.JPG',
+        options: [],
+    }
+]
+
+const itemsFitDinner: ItemL[] = [
+    {
+        id: 1,
+        name: 'Baked Rui fish with sweet potato mash and stir fried vegetables',
+        price: 69.99,
+        imageUrl: 'EFR.JPG',
+        options: [],
+    }
+]
+
+export { items, itemsL, itemsDinner, itemsPreggoBreakfast, itemsPreggoLunch, itemsPreggoDinner, itemsFitBreakfast, itemsFitLunch, itemsFitDinner };
 export type { Item, ItemL };

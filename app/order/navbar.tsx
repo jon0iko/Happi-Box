@@ -51,11 +51,11 @@ export default function Nav() {
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <Box>
                         <a href='/'>
-                            <img className='w-20' src="/logopng.png"></img>
+                            <img className='w-14' src="/logopngsmall.png"></img>
                         </a>
                     </Box>
                     <Box>
-                        <p>Happi Box</p>
+                        <p>Bhojon Box</p>
                     </Box>
 
                     <Flex alignItems={'center'}>

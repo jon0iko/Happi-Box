@@ -1,6 +1,6 @@
 'use client'
 import { ChakraProvider } from '@chakra-ui/react'
-import Nav from '../items/navbar'
+import Nav from '../order/navbar'
 import footer from './footer'
 
 

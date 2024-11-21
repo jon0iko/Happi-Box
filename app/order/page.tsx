@@ -4,9 +4,10 @@ import { useState } from "react";
 import { ChakraProvider } from "@chakra-ui/react";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import { useToast, Toast } from "@chakra-ui/react";
-import { items, itemsL, itemsDinner, itemsPreggo } from "./items";
+import { items, itemsL, itemsDinner } from "./items";
 import ItemsView from "./ItemsView";
 import Footer from "./Footer";
+import FoodTabsPreggo from "./FoodTabsPreggo";
 
 const Page = () => {
   const toast = useToast();
@@ -18,8 +19,8 @@ const Page = () => {
           <TabList>
             <Tab>Breakfast</Tab>
             <Tab>Lunch</Tab>
-            <Tab>Dinner</Tab>
-            <Tab>Preggo plates</Tab>
+            <Tab>Fit Feasts</Tab>
+            <Tab>Mama meals</Tab>
           </TabList>
           <TabPanels>
             <TabPanel>
@@ -32,7 +33,7 @@ const Page = () => {
               <ItemsView items={itemsDinner} />
             </TabPanel>
             <TabPanel>
-              <ItemsView items={itemsPreggo} />
+              <FoodTabsPreggo />
             </TabPanel>
           </TabPanels>
         </Tabs>
