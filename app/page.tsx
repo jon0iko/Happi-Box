@@ -94,40 +94,40 @@ export default function Home() {
       </div>
 
       <div className='bg-[url("/demoo.jpg")] bg-cover bg-center'>
-        <div className="text-white body-font  px-4 sm:px-6 lg:px-8 xl:px-28 py-8 sm:py-12 lg:py-16">
-          <div className="container mx-auto flex flex-col lg:flex-row items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-                Why Choose Bhojon Box{" "}
-              </h1>
-              <p className="mb-8 leading-relaxed">
-                We provide a wide variety of home-cooked meals made from fresh
-                and locally sourced ingredients. Our meals are not only
-                delicious but also healthy, ensuring you get the nutrition you
-                need.
-              </p>
-              <div className="flex justify-center">
-                <a href="/subscriptions">
-                  <button className="bg-[#d3b27f] rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-100 duration-300 hover:border border border-transparent text-black hover:text-white">
-                    Subscribe Now
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/zFDp2Qs-zY4"
-                title="Happi Box"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                className="object-cover object-center rounded"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
+  <div className="text-white body-font px-4 sm:px-6 lg:px-8 xl:px-28 py-8 sm:py-12 lg:py-16">
+    <div className="container mx-auto flex flex-col lg:flex-row items-center">
+      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          Why Choose Bhojon Box{" "}
+        </h1>
+        <p className="mb-8 leading-relaxed">
+          We provide a wide variety of home-cooked meals made from fresh
+          and locally sourced ingredients. Our meals are not only
+          delicious but also healthy, ensuring you get the nutrition you
+          need.
+        </p>
+        <div className="flex justify-center">
+          <a href="/subscriptions">
+            <button className="bg-[#d3b27f] rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-100 duration-300 hover:border border border-transparent text-black hover:text-white">
+              Subscribe Now
+            </button>
+          </a>
         </div>
       </div>
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
+  <div className="relative" style={{ paddingBottom: "56.25%" }}>
+    <iframe
+      className="absolute top-0 left-0 w-full h-full object-cover object-center rounded"
+      src="https://www.youtube.com/embed/zFDp2Qs-zY4"
+      title="Happi Box"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowFullScreen
+    ></iframe>
+  </div>
+      </div>
+    </div>
+  </div>
+</div>
 
       <footer className="text-white body-font px-4 sm:px-6 lg:px-8 xl:px-28 py-12 sm:py-16 lg:py-24">
         <div className="container mx-auto flex flex-wrap">
